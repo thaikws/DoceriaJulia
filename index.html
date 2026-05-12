@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Ju Doceria</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="index-body">
+    <nav class="navbar navbar-expand-lg py-3 fixed-top w-100 shadow-sm" style="background-color: #d8acb4;">
+    <div class="container-fluid">
+    <a class="navbar-brand fw-bold" href="#index" style="color: #5f4425;">La Ju Doceria</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link fw-bold " href="#cardapio" style="color: #5f4425;">CARDÁPIO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fw-bold" href="#sobre" style="color: #5f4425;">SOBRE NÓS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fw-bold" href="#contato" style="color: #5f4425;">CONTATO</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<section id="index" class="hero">
+<h1 class="fw-bolder" id="titulo">LA JU DOCERIA <br>POR UM FUTURO MAIS DOCE</h1>
+<a href="#cardapio" class="pink-btn btn btn-lg">SAIBA MAIS</a>
+</section>
+
+<section id="cardapio" class="container-fluid py-5">
+
+    <h2 id="titulo-cardapio" class="text-center fw-bolder mb-5">
+      <br>
+        Nosso Cardápio
+    </h2>
+
+    <div class="row g-4">
+
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+
+                <img src="imgs/brownieJu.jpeg" class="card-img-top">
+
+                <div class="card-body">
+
+                    <h5 class="card-title fw-bold">
+                        Brownie
+                    </h5>
+
+                    <p class="card-text">
+                        Brownie artesanal com cobertura de chocolate.
+                    </p>
+
+                    <a href="#encomendar" class="btn pink-btn d-block mx-auto">
+                        Encomendar
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+
+                <img src="imgs/boloCenoura.jpg" class="card-img-top">
+
+                <div class="card-body">
+
+                    <h5 class="card-title fw-bold">
+                        Bolo de cenoura
+                    </h5>
+
+                    <p class="card-text">
+                        Bolo de cenoura em fatia.
+                    </p>
+
+                    <a href="#encomendar" class="btn pink-btn d-block mx-auto">
+                        Encomendar
+                    </a>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+
+                <img src="imgs/boloPote.jpg" class="card-img-top">
+
+                <div class="card-body">
+
+                    <h5 class="card-title fw-bold">
+                        Bolo de pote
+                    </h5>
+
+                    <p class="card-text">
+                        Bolo de ninho no pote.
+                    </p>
+
+                    <a href="#encomendar" class="btn pink-btn d-block mx-auto">
+                        Encomendar
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="encomendar" class="container-fluid py-5">
+
+    <h2 id="titulo-encomenda" class="text-center fw-bolder mb-4">
+      <br>
+        Faça sua encomenda
+    </h2>
+
+    <p class="text-center mb-5">
+        Preencha as informações abaixo para solicitar seu pedido 💖
+    </p>
+
+    <form id="form-encomenda">
+
+        <div class="mb-3">
+            <label class="form-label">Nome</label>
+
+            <input type="text"
+            class="form-control"
+            id="nome">
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">WhatsApp</label>
+
+            <input type="text"
+            class="form-control"
+            id="whatsapp">
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Produto</label>
+
+            <select class="form-select" id="produto">
+
+                <option>Brownie</option>
+                <option>Bolo de cenoura</option>
+                <option>Bolo de pote</option>
+
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">
+                Observações
+            </label>
+
+            <textarea class="form-control"
+            rows="4"
+            id="obs"></textarea>
+        </div>
+
+        <button type="submit"
+        class="btn pink-btn d-block mx-auto">
+            Enviar pedido
+        </button>
+
+    </form>
+
+</section>
+
+<section id="sobre">
+  <br>
+  <br>
+  <h2 id="titulo-sobre" class="fw-bolder display-5 mb-4">
+        Sobre nós
+  </h2>
+
+    <p id="texto-sobre" class="lh-lg">
+        Na La Ju Doceria, acreditamos que cada doce pode transformar
+        um momento simples em uma lembrança especial. 🍰✨
+        Criamos nossos produtos com carinho, atenção aos detalhes
+        e ingredientes selecionados, buscando unir sabor,
+        qualidade e aquele toque artesanal que faz toda diferença.
+
+        <br><br>
+        Nossa missão é levar mais felicidade para o dia das pessoas
+        através de brownies, bolos e sobremesas feitas com amor.
+        Cada encomenda é preparada pensando em proporcionar uma
+        experiência acolhedora, delicada e inesquecível.
+    </p>
+</section>
+
+<section class="container-fluid py-5" id="contato">
+
+    <h2 id="titulo-contato" class="text-center fw-bold mb-3">
+      <br>
+        Entre em contato 💬
+    </h2>
+
+    <p id="texto-contato" class="text-center mb-5">
+        Tire dúvidas ou faça seu pedido direto por aqui!
+    </p>
+    <div class="text-center mb-4">
+
+    <a class="btn pink-btn mx-2"
+       href="https://wa.me/5511921013005"
+       target="_blank">
+        WhatsApp
+    </a>
+
+    <a class="btn pink-btn mx-2"
+       href="https://instagram.com/la_ju_doceria"
+       target="_blank">
+        Instagram
+    </a>
+
+</div> 
+    <script src="js/contato.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
